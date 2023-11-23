@@ -1,0 +1,116 @@
+body{
+    display: block;
+}
+
+.container{
+    display: flex;
+}
+
+.div1 {
+    position: fixed;
+    background-color: rgb(4, 4, 50);
+    width: 20%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.div1 > header{
+    color: aliceblue;
+    font-size: larger;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("logo.png");
+    background-size:  250px ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 100px;
+    margin-bottom: 40px;
+
+}
+
+li {
+    display: block;
+    padding: 21px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+.divdiv {
+    margin-top: 30px;
+}
+
+.divdiv :hover{
+    background-color: lightblue;
+    color: black;
+    border-radius: 0px 20px 20px 0px;
+    width: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 13px;
+    margin-left: -50px;
+}
+
+.search {
+    width: 150px;
+    border-radius: 17px;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: fixed;
+    border-color: rgb(4, 4, 50);
+    box-shadow: 0px 5px 10px black;
+    height: 30px;
+    border: none;
+}
+
+.div2{
+    margin-left: 20%;
+    width: 74%;
+    
+}
+
+.img{
+    height: 30px;
+    width: 30px;
+    background:url("labo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+    border-radius: 17px;
+    border: none;
+    margin-top: 20px;   
+    margin-left: 33px;
+    box-shadow: 0px 5px 10px;
+    background-color: white;
+}
+.nav-item {
+    cursor: pointer;
+  }
+.page {
+    display: none;
+  }
+.page.active {
+    display: block;
+  }
+.nav-item.active{
+    background-color: white;
+    color: rgb(4, 4, 50);
+    font-weight: bolder;
+    text-align: center;
+    height: 7px;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 10px;
+ }
+ .nav-item.active:hover{
+    background-color: white;
+    width: 83.5%;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-top: 10px;
+    font-size: 16px;
+ }
+
+
